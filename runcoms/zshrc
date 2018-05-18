@@ -11,3 +11,18 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+export CLICOLOR=1
+alias ls='ls -hGF'
+alias ll='ls -hlAGF'
+alias vi='vim'
+alias jfs='fasd -f -e subl '
+alias js='fasd -e subl '
+
+# eval "$(direnv hook zsh)"
+
+# export PATH=$PATH:/usr/local/opt/go/libexec/bin
+# export PGDATA=/usr/local/var/postgres/data/
+# export JAVA_HOME=$(/usr/libexec/java_home)
+
+# export ANDROID_HOME=/Users/stefano/Library/Android/sdk
+# export PATH=$PATH:$ANDROID_HOME/bin
